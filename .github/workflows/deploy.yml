@@ -1,0 +1,25 @@
+name: Continuous Integration and Deployment
+
+on:
+  push:
+    branches: "main"
+
+jobs:
+  php-tests:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
+        with:
+          php-version: "8.2"
+      - uses: actions/checkout@v3
+    #   - name: Install Dependencies
+    #     run: |
+    #       composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+      - name: Deploy to Server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /
