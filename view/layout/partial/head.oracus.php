@@ -7,9 +7,9 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
-	<title>Weebix - IT Service And Technology HTML Template</title>
+	<title>Oracus - IT Service And Technology</title>
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="<?php asset('public/images/favicon.png') ?>">
+	<link rel="shortcut icon" type="image/x-icon" href="<?php asset('images/favicon.png') ?>">
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
