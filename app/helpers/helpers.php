@@ -19,7 +19,7 @@ if (!function_exists('isActiveRoute')) {
 }
 
 
-if (!function_exists('view')) {  
+if (!function_exists('view')) {
     /**
      * view
      *
@@ -46,4 +46,36 @@ if (!function_exists('view')) {
             echo "View file not found: $fullPath";
         }
     }
+}
+
+
+if (!function_exists('asset')) {
+    /**
+     * asset
+     *
+     * @param  mixed $path
+     * @return void
+     */
+    function asset($path)
+    {
+        // Get the base URL for your site
+        $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+        $host = $_SERVER['HTTP_HOST'];
+        $baseUrl = $scheme . $host . '/';
+        // Define the URL to the public directory
+        $publicPath = $baseUrl . '/public/' . $path;
+
+        // Get the full file system path
+        $fullPath = $_SERVER['DOCUMENT_ROOT'] . '/public/' . $path;
+
+        // Check if the file exists in the public directory
+        if (file_exists($fullPath)) {
+            // Return the URL to the asset
+            echo $publicPath;
+        } else {
+            // Return an empty string if the file doesn't exist
+            echo '';
+        }
+    }
+
 }
