@@ -10,4 +10,5 @@ include_once 'routes/web.php';
 $currentRoute = strtok($_SERVER['REQUEST_URI'], '?');
 
 
-view('layout.app', ['currentRoute' => $currentRoute, 'routes' => $routes]);
+// view('layout.app', ['currentRoute' => $currentRoute, 'routes' => $routes]);
+View::render('layout.app', ['currentRoute' => $currentRoute, 'routes' => $routes]);

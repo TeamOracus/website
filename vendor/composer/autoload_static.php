@@ -11,6 +11,7 @@ class ComposerStaticInit680e7341583d89306b387b247f21f270
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '8d22c39e6567f3f68fd617b76fa352ab' => __DIR__ . '/../..' . '/app/helpers/helpers.php',
+        'e452f90d85020f7bd07ee367c3b4633f' => __DIR__ . '/../..' . '/app/System/Template.php',
     );
 
     public static $prefixLengthsPsr4 = array (

@@ -19,10 +19,10 @@
         if (array_key_exists($currentRoute, $routes)) {
             $page = $routes[$currentRoute];
 
-            view($page);
+            View::render($page);
             
         } else {
-            view('404');
+            View::render('404');
         }
         ?>
 
