@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<?php //@include('view/layouts/head.oracus.php'); ?>
-<body>
+@php View::render('layout.partial.head'); @endphp
+
+<body class="tt-magic-cursor">
 
     <!-- Preloader Start -->
-	<div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
-		</div>
-	</div>
-	<!-- Preloader End -->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
 
-    <?php //@include('view/layouts/header.oracus.php'); ?>
+    <!-- Magic Cursor Start -->
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <!-- Magic Cursor End -->
 
-    <?php
-        if (array_key_exists($currentRoute, $routes)) {
-            $page = $routes[$currentRoute];
+    @php View::render('layout.partial.header'); @endphp
 
-            View::render($page);
-            
-        } else {
-            View::render('404');
-        }
-        ?>
+    @php
+    if (array_key_exists($currentRoute, $routes)) {
+    $page = $routes[$currentRoute];
 
-    <?php //@include('view/layouts/footer.oracus.php'); ?>
+    View::render($page);
 
-    <?php //@include('view/layouts/scripts.oracus.php'); ?>
+    } else {
+    View::render('404');
+    }
+    @endphp
+
+    @php
+    View::render('layout.partial.footer');
+    View::render('layout.partial.scripts');
+    @endphp
 </body>
 
 </html>
