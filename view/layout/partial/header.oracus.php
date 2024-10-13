@@ -5,7 +5,7 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="index-2.html">
-						<img src="images/logo.svg" alt="Logo">
+						<img src="<?php asset('images/logo.svg') ?>" alt="Logo">
 					</a>
 					<!-- Logo End -->
 

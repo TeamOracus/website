@@ -10,12 +10,12 @@
                             <!-- Footer About Start -->
                             <div class="footer-about">
                                 <figure>
-                                    <img src="images/footer-logo.svg" alt="">
+                                    <img src="<?php asset('images/footer-logo.svg') ?>" alt="">
                                 </figure>
                                 <p>Creative Agency Based on Lorem Ipsum</p>
                                 <ul>
-                                    <li><a href="#">info@domainname.com</a></li>
-                                    <li><a href="#">(+0) 123 456 789</a></li>
+                                    <li><a href="#">contact@oracus.ng</a></li>
+                                    <li><a href="#">(+234) 909 1344 893</a></li>
                                 </ul>
                             </div>
                             <!-- Footer About End -->
@@ -74,7 +74,7 @@
                         <div class="col-lg-6">
                             <!-- Footer Copyright Content Start -->
                             <div class="footer-copyright-text">
-                                <p>Copyright © 2024 weebix. All rights reserved.</p>
+                                <p>Copyright © <?= date('Y') ?> Oracus. All rights reserved.</p>
                             </div>
                             <!-- Footer Copyright Content End -->
                         </div>

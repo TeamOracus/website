@@ -35,7 +35,7 @@
                 <div class="hero-video-image">
                     <div class="hero-image">
                         <figure class="image-anime reveal">
-                            <img src="images/hero-img.jpg" alt="">
+                            <img src="<?php asset('images/hero-img.jpg') ?>" alt="">
                         </figure>
                     </div>
 
@@ -71,12 +71,12 @@
                 <div class="about-image">
                     <div class="about-img">
                         <figure class="image-anime reveal">
-                            <img src="images/about-us-img.jpg" alt="">
+                            <img src="<?php asset('images/about-us-img.jpg') ?>" alt="">
                         </figure>
                     </div>
                     <div class="about-consultation">
                         <figure>
-                            <img src="images/about-circle.png" alt="">
+                            <img src="<?php asset('images/about-circle.png') ?>" alt="">
                         </figure>
                     </div>
                 </div>
@@ -145,13 +145,13 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>web development</h2>
-                            <a href="#"><img src="images/arrow.svg" alt=""></a>
+                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
-                            <img src="images/service-img-1.jpg" alt="">
+                            <img src="<?php asset('images/service-img-1.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
@@ -164,13 +164,13 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Digital Marketing</h2>
-                            <a href="#"><img src="images/arrow.svg" alt=""></a>
+                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
-                            <img src="images/service-img-2.jpg" alt="">
+                            <img src="<?php asset('images/service-img-2.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
@@ -183,13 +183,13 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Game Development</h2>
-                            <a href="#"><img src="images/arrow.svg" alt=""></a>
+                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
-                            <img src="images/service-img-3.jpg" alt="">
+                            <img src="<?php asset('images/service-img-3.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
@@ -202,13 +202,13 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Mobile App Development</h2>
-                            <a href="#"><img src="images/arrow.svg" alt=""></a>
+                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
-                            <img src="images/service-img-4.jpg" alt="">
+                            <img src="<?php asset('images/service-img-4.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
@@ -221,13 +221,13 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Networking Services</h2>
-                            <a href="#"><img src="images/arrow.svg" alt=""></a>
+                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
-                            <img src="images/service-img-5.jpg" alt="">
+                            <img src="<?php asset('images/service-img-5.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
@@ -240,13 +240,13 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Graphics Design</h2>
-                            <a href="#"><img src="images/arrow.svg" alt=""></a>
+                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
-                            <img src="images/service-img-6.jpg" alt="">
+                            <img src="<?php asset('images/service-img-6.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
@@ -285,7 +285,7 @@
                 <div class="works-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="works-image">
                         <figure class="image-anime">
-                            <img src="images/works-img-1.jpg" alt="">
+                            <img src="<?php asset('images/works-img-1.jpg') ?>" alt="">
                         </figure>
                     </div>
                     <div class="works-content">
@@ -302,7 +302,7 @@
                 <div class="works-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="works-image">
                         <figure class="image-anime">
-                            <img src="images/works-img-2.jpg" alt="">
+                            <img src="<?php asset('images/works-img-2.jpg') ?>" alt="">
                         </figure>
                     </div>
                     <div class="works-content">
@@ -319,7 +319,7 @@
                 <div class="works-item wow fadeInUp" data-wow-delay="0.75s">
                     <div class="works-image">
                         <figure class="image-anime">
-                            <img src="images/works-img-3.jpg" alt="">
+                            <img src="<?php asset('images/works-img-3.jpg') ?>" alt="">
                         </figure>
                     </div>
                     <div class="works-content">
@@ -336,7 +336,7 @@
                 <div class="works-item wow fadeInUp" data-wow-delay="1s">
                     <div class="works-image">
                         <figure class="image-anime">
-                            <img src="images/works-img-4.jpg" alt="">
+                            <img src="<?php asset('images/works-img-4.jpg') ?>" alt="">
                         </figure>
                     </div>
                     <div class="works-content">
@@ -371,7 +371,7 @@
                 <!-- Why Choose Item Start -->
                 <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
-                        <img src="images/icon-whyus-1.svg" alt="">
+                        <img src="<?php asset('images/icon-whyus-1.svg') ?>" alt="">
                     </div>
                     <h3>innovation</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
@@ -383,7 +383,7 @@
                 <!-- Why Choose Item Start -->
                 <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
-                        <img src="images/icon-whyus-2.svg" alt="">
+                        <img src="<?php asset('images/icon-whyus-2.svg') ?>" alt="">
                     </div>
                     <h3>quality-focused</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
@@ -395,7 +395,7 @@
                 <!-- Why Choose Item Start -->
                 <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.75s">
                     <div class="icon-box">
-                        <img src="images/icon-whyus-3.svg" alt="">
+                        <img src="<?php asset('images/icon-whyus-3.svg') ?>" alt="">
                     </div>
                     <h3>value for money</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
@@ -417,7 +417,7 @@
 
                                 <!-- Explore Item Icon Start -->
                                 <div class="explore-item-icon">
-                                    <img src="images/icon-whyus-4.svg" alt="">
+                                    <img src="<?php asset('images/icon-whyus-4.svg') ?>" alt="">
                                 </div>
                                 <!-- Explore Item Icon End -->
                             </div>
@@ -473,7 +473,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="images/icon-partners-1.svg" alt="">
+                    <img src="<?php asset('images/icon-partners-1.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -481,7 +481,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="images/icon-partners-2.svg" alt="">
+                    <img src="<?php asset('images/icon-partners-2.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -489,7 +489,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.6s">
-                    <img src="images/icon-partners-3.svg" alt="">
+                    <img src="<?php asset('images/icon-partners-3.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -497,7 +497,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.8s">
-                    <img src="images/icon-partners-4.svg" alt="">
+                    <img src="<?php asset('images/icon-partners-4.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -505,7 +505,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="1s">
-                    <img src="images/icon-partners-3.svg" alt="">
+                    <img src="<?php asset('images/icon-partners-3.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -513,7 +513,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="1.2s">
-                    <img src="images/icon-partners-4.svg" alt="">
+                    <img src="<?php asset('images/icon-partners-4.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -521,7 +521,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="1.4s">
-                    <img src="images/icon-partners-1.svg" alt="">
+                    <img src="<?php asset('images/icon-partners-1.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -529,7 +529,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                    <img src="images/icon-partners-2.svg" alt="">
+                    <img src="<?php asset('images/icon-partners-2.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -562,7 +562,7 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
                                     <div class="testimonial-rating">
-                                        <img src="images/icon-star.svg" alt="">
+                                        <img src="<?php asset('images/icon-star.svg') ?>" alt="">
                                     </div>
 
                                     <div class="testimonial-content">
@@ -572,7 +572,7 @@
 
                                     <div class="testimonial-body">
                                         <figure class="image-anime">
-                                            <img src="images/author-1.jpg" alt="">
+                                            <img src="<?php asset('images/author-1.jpg') ?>" alt="">
                                         </figure>
                                         <div class="testimonial-author-title">
                                             <h2>John Doe</h2>
@@ -587,7 +587,7 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
                                     <div class="testimonial-rating">
-                                        <img src="images/icon-star.svg" alt="">
+                                        <img src="<?php asset('images/icon-star.svg') ?>" alt="">
                                     </div>
 
                                     <div class="testimonial-content">
@@ -597,7 +597,7 @@
 
                                     <div class="testimonial-body">
                                         <figure class="image-anime">
-                                            <img src="images/author-2.jpg" alt="">
+                                            <img src="<?php asset('images/author-2.jpg') ?>" alt="">
                                         </figure>
                                         <div class="testimonial-author-title">
                                             <h2>Arita Banson</h2>
@@ -612,7 +612,7 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
                                     <div class="testimonial-rating">
-                                        <img src="images/icon-star.svg" alt="">
+                                        <img src="<?php asset('images/icon-star.svg') ?>" alt="">
                                     </div>
 
                                     <div class="testimonial-content">
@@ -622,7 +622,7 @@
 
                                     <div class="testimonial-body">
                                         <figure class="image-anime">
-                                            <img src="images/author-3.jpg" alt="">
+                                            <img src="<?php asset('images/author-3.jpg') ?>" alt="">
                                         </figure>
                                         <div class="testimonial-author-title">
                                             <h2>Banson Doe</h2>
@@ -637,7 +637,7 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
                                     <div class="testimonial-rating">
-                                        <img src="images/icon-star.svg" alt="">
+                                        <img src="<?php asset('images/icon-star.svg') ?>" alt="">
                                     </div>
 
                                     <div class="testimonial-content">
@@ -647,7 +647,7 @@
 
                                     <div class="testimonial-body">
                                         <figure class="image-anime">
-                                            <img src="images/author-2.jpg" alt="">
+                                            <img src="<?php asset('images/author-2.jpg') ?>" alt="">
                                         </figure>
                                         <div class="testimonial-author-title">
                                             <h2>John Doe</h2>
@@ -697,7 +697,7 @@
                     <!-- Blog Image Start -->
                     <div class="post-featured-image">
                         <figure class="image-anime">
-                            <a href="#"><img src="images/post-1.jpg" alt=""></a>
+                            <a href="#"><img src="<?php asset('images/post-1.jpg') ?>" alt=""></a>
                         </figure>
                     </div>
                     <!-- Blog Image End -->
@@ -718,7 +718,7 @@
                     <!-- Blog Image Start -->
                     <div class="post-featured-image">
                         <figure class="image-anime">
-                            <a href="#"><img src="images/post-2.jpg" alt=""></a>
+                            <a href="#"><img src="<?php asset('images/post-2.jpg') ?>" alt=""></a>
                         </figure>
                     </div>
                     <!-- Blog Image End -->
@@ -739,7 +739,7 @@
                     <!-- Blog Image Start -->
                     <div class="post-featured-image">
                         <figure class="image-anime">
-                            <a href="#"><img src="images/post-3.jpg" alt=""></a>
+                            <a href="#"><img src="<?php asset('images/post-3.jpg') ?>" alt=""></a>
                         </figure>
                     </div>
                     <!-- Blog Image End -->
