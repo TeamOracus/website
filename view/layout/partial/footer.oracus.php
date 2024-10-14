@@ -12,10 +12,10 @@
                                 <figure>
                                     <img src="<?php asset('images/footer-logo.svg') ?>" alt="">
                                 </figure>
-                                <p>Creative Agency Based on Lorem Ipsum</p>
+                                <p>We Transform Your Business with Innovative Solutions</p>
                                 <ul>
-                                    <li><a href="#">contact@oracus.ng</a></li>
-                                    <li><a href="#">(+234) 909 1344 893</a></li>
+                                    <li><a href="mailto:contact@oracus.ng">contact@oracus.ng</a></li>
+                                    <li><a href="tel:+2349091344893">(+234) 909 1344 893</a></li>
                                 </ul>
                             </div>
                             <!-- Footer About End -->

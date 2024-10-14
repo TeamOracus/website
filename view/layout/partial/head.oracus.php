@@ -7,7 +7,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
-	<title>Oracus - IT Service And Technology</title>
+	<title>Team Oracus - We are more than just a digital agency</title>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="<?php asset('images/favicon.png') ?>">
 	<!-- Google Fonts Css-->

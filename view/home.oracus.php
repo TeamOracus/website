@@ -7,17 +7,16 @@
                 <div class="hero-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">about our Company</h3>
-                        <h1 class="text-anime-style-3">Web Design, SEO & Internet Marketing For <span>Your
-                                Business</span></h1>
+                        <h3 class="wow fadeInUp">We are Team Oracus</h3>
+                        <h1 class="text-anime-style-3">We Transform Your Business with <span>Innovative Solutions</span>
+                        </h1>
                     </div>
                     <!-- Section Title End -->
 
                     <!-- Hero Body Start -->
                     <div class="hero-body">
-                        <p class="wow fadeInUp" data-wow-delay="0.5s">Sed ut perspiciatis unde omnis iste natus error
-                            sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                            veritatis et quasi architecto beatae vitae dicta sunt.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">Empowering enterprises with technology-driven
+                            strategies to achieve sustainable growth.</p>
                     </div>
                     <!-- Hero Body End -->
 
@@ -59,7 +58,7 @@
                 <!-- Section Title Start -->
                 <div class="section-title">
                     <h3 class="wow fadeInUp">about Company</h3>
-                    <h2 class="text-anime-style-3">Websites that tell your brand's story</h2>
+                    <h2 class="text-anime-style-3">We are more than just a digital agency</h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -86,26 +85,28 @@
             <div class="col-lg-6">
                 <!-- About Us Content Start -->
                 <div class="about-content">
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium , totam rem aperiam, eaque ipsa quae ab illo inventore et quasi
-                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                    <p class="wow fadeInUp" data-wow-delay="0.5s">We are Team Oracus, we combine strategy, creativity,
+                        innovation, and design to solve the most complex business challenges.</p>
 
-                    <p class="wow fadeInUp" data-wow-delay="0.5s">totam rem aperiam, eaque ipsa quae ab illo inventore
-                        et quasi architecto beatae vitae dicta sunt explicabo. sed quia consequuntur magni dolores eos
-                        qui ratione voluptatem sequi nesciunt.</p>
+                    <p class="wow fadeInUp" data-wow-delay="0.25s">Since we kicked off our journey in 2018, we've been
+                        all about crafting cutting-edge solutions that not only drive success but also bring a smile to
+                        businesses of all sizes. Our passionate team is here to deliver personalized services that fit
+                        your unique needs like a glove!</p>
 
-                    <p class="wow fadeInUp" data-wow-delay="0.75s">At vero eos et accusamus et iusto odio dignissimos
-                        ducimus qui blanditiis praesentium voluptatum deleniti cupiditate non provident, similique sunt
-                        in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                    <p class="wow fadeInUp" data-wow-delay="0.75s">At Team Oracus, we’re not just about getting the job
+                        done; we’re here to make your business journey exciting and rewarding! We thrive on creativity
+                        and innovation, helping you navigate the wild world of business with flair and confidence!</p>
+
 
                     <ul class="wow fadeInUp" data-wow-delay="1s">
-                        <li>Ease of Scalability</li>
-                        <li>Instant Impact</li>
-                        <li>Expertise and Experience</li>
-                        <li>Time Zone Aligned</li>
-                        <li>Full Flexibility</li>
-                        <li>Proactive Support</li>
+                        <li>Proven track record of success</li>
+                        <li>Expert team with diverse skills</li>
+                        <li>Commitment to innovation and excellence</li>
+                        <li>Client-Centric Approach</li>
+                        <li>Data-Driven Insights</li>
+                        <li>Comprehensive Industry Knowledge</li>
                     </ul>
+
 
                     <a href="#" class="btn-default wow fadeInUp" data-wow-delay="1.25s">free consultation</a>
                 </div>
