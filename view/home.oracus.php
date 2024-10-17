@@ -1,3 +1,9 @@
+<style>
+    /* .btn-default {
+        background-color:#FD7E14;
+        border-color: #FD7E14;
+    } */
+</style>
 <!-- Hero Section Start -->
 <div class="hero">
     <div class="container">
@@ -125,7 +131,8 @@
                 <!-- Section Title Start -->
                 <div class="section-title">
                     <h3 class="wow fadeInUp">our services</h3>
-                    <h2 class="text-anime-style-3">What we can offer today</h2>
+                    <h2 class="text-anime-style-3">What We Can Do for You</h2>
+                    <h4 class="text-anime-style-3">(Spoiler: A Lot!)</h4>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -361,7 +368,7 @@
                 <!-- Section Title Start -->
                 <div class="section-title">
                     <h3 class="wow fadeInUp">why choose us</h3>
-                    <h2 class="text-anime-style-3">Why choose us ?</h2>
+                    <h2 class="text-anime-style-3">Why Team Oracus?</h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -374,8 +381,8 @@
                     <div class="icon-box">
                         <img src="<?php asset('images/icon-whyus-1.svg') ?>" alt="">
                     </div>
-                    <h3>innovation</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                    <h3>We’re Experts (But Fun Ones!)</h3>
+                    <p>We’re not just pros at what we do, we’re also down-to-earth, friendly folks who love a good challenge and a great laugh!</p>
                 </div>
                 <!-- Why Choose Item End -->
             </div>
@@ -386,8 +393,8 @@
                     <div class="icon-box">
                         <img src="<?php asset('images/icon-whyus-2.svg') ?>" alt="">
                     </div>
-                    <h3>quality-focused</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                    <h3>We Build Cool Stuff</h3>
+                    <p>From websites that wow to software that simplifies, we create the kind of tech that makes people say, "Whoa, that’s cool!"</p>
                 </div>
                 <!-- Why Choose Item End -->
             </div>
@@ -398,8 +405,8 @@
                     <div class="icon-box">
                         <img src="<?php asset('images/icon-whyus-3.svg') ?>" alt="">
                     </div>
-                    <h3>value for money</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                    <h3>Your Success Is Our Priority</h3>
+                    <p>We’re in this for the long haul. Your goals are our goals, and we’re with you every step of the way, high-fives included!</p>
                 </div>
                 <!-- Why Choose Item End -->
             </div>

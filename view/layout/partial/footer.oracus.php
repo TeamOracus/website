@@ -10,7 +10,7 @@
                             <!-- Footer About Start -->
                             <div class="footer-about">
                                 <figure>
-                                    <img src="<?php asset('images/footer-logo.svg') ?>" alt="">
+                                    <img src="<?php asset('images/footer-logo.svg') ?>" alt="" width="150">
                                 </figure>
                                 <p>We Transform Your Business with Innovative Solutions</p>
                                 <ul>
