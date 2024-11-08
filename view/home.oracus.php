@@ -152,10 +152,11 @@
                 <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="service-content">
                         <div class="service-content-title">
-                            <h2>web development</h2>
+                            <h2>Web Development</h2>
                             <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
-                        <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
+                        <p>Building fast, sleek, and responsive websites that turn visitors into customers—whether you
+                            need a stunning portfolio or a full-blown e-commerce platform, we've got you covered!</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
@@ -174,30 +175,12 @@
                             <h2>Digital Marketing</h2>
                             <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
-                        <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
+                        <p>From SEO to social media campaigns, we’ll help your brand shine across the web. Let’s boost
+                            your visibility and get those clicks rolling in!</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
                             <img src="<?php asset('images/service-img-2.jpg') ?>" alt="">
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Game Development</h2>
-                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
-                        </div>
-                        <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <img src="<?php asset('images/service-img-3.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
@@ -212,11 +195,32 @@
                             <h2>Mobile App Development</h2>
                             <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
-                        <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
+                        <p>Need an app? We create user-friendly, intuitive mobile experiences that your customers will
+                            love—whether it’s iOS, Android, or cross-platform.</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
                             <img src="<?php asset('images/service-img-4.jpg') ?>" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
+                    <div class="service-content">
+                        <div class="service-content-title">
+                            <h2>Social Media Management</h2>
+                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                        </div>
+                        <p>We’ll manage your social media like pros—creating engaging posts, running ads, and keeping
+                            your audience hooked. It’s time to go viral!</p>
+                    </div>
+                    <div class="service-image">
+                        <figure class="image-anime">
+                            <img src="<?php asset('images/service-img-3.jpg') ?>" alt="">
                         </figure>
                     </div>
                 </div>
@@ -231,7 +235,8 @@
                             <h2>Networking Services</h2>
                             <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
-                        <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
+                        <p>Setting up a robust, secure, and reliable network for your business? Whether it’s wired or
+                            wireless, we ensure you’re always connected—seamlessly!</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
@@ -247,10 +252,11 @@
                 <div class="service-item wow fadeInUp" data-wow-delay="1.5s">
                     <div class="service-content">
                         <div class="service-content-title">
-                            <h2>Graphics Design</h2>
+                            <h2>Branding/Graphics Design</h2>
                             <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
-                        <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
+                        <p>Your brand deserves to stand out. From logo design to full brand identity, we create visuals
+                            that leave a lasting impression and make your brand pop!</p>
                     </div>
                     <div class="service-image">
                         <figure class="image-anime">
@@ -261,6 +267,7 @@
                 <!-- Service Item End -->
             </div>
         </div>
+
     </div>
 </div>
 <!-- Our Services Section End -->
@@ -281,7 +288,7 @@
             <div class="col-lg-4 col-md-3">
                 <!-- Section Btn Start -->
                 <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                    <a href="#" class="btn-default">all portfolio</a>
+                    <a href="/portfolio" class="btn-default">all portfolio</a>
                 </div>
                 <!-- Section Btn End -->
             </div>
@@ -293,13 +300,12 @@
                 <div class="works-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="works-image">
                         <figure class="image-anime">
-                            <img src="<?php asset('images/works-img-1.jpg') ?>" alt="">
+                            <img src="<?php asset('images/gridape.jpg') ?>" alt="">
                         </figure>
                     </div>
                     <div class="works-content">
-                        <h2>Operation Atlas</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
+                        <h2>Gridape HQ</h2>
+                        <p>Gridape is an AI-powered email marketing platform that helps businesses create personalized, high-impact campaigns. With smart segmentation, predictive analytics, and easy-to-use design tools, Gridape enables targeted messaging that drives engagement and boosts ROI—making email marketing smarter and more effective.</p>
                     </div>
                 </div>
                 <!-- Works Item End -->
@@ -310,47 +316,12 @@
                 <div class="works-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="works-image">
                         <figure class="image-anime">
-                            <img src="<?php asset('images/works-img-2.jpg') ?>" alt="">
+                            <img src="<?php asset('images/derapay.jpg') ?>" alt="">
                         </figure>
                     </div>
                     <div class="works-content">
-                        <h2>Quantum Quest</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <!-- Works Item End -->
-            </div>
-
-            <div class="col-md-6">
-                <!-- Works Item Start -->
-                <div class="works-item wow fadeInUp" data-wow-delay="0.75s">
-                    <div class="works-image">
-                        <figure class="image-anime">
-                            <img src="<?php asset('images/works-img-3.jpg') ?>" alt="">
-                        </figure>
-                    </div>
-                    <div class="works-content">
-                        <h2>Blue Horizon Initiative</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <!-- Works Item End -->
-            </div>
-
-            <div class="col-md-6">
-                <!-- Works Item Start -->
-                <div class="works-item wow fadeInUp" data-wow-delay="1s">
-                    <div class="works-image">
-                        <figure class="image-anime">
-                            <img src="<?php asset('images/works-img-4.jpg') ?>" alt="">
-                        </figure>
-                    </div>
-                    <div class="works-content">
-                        <h2>Project Alpha</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
+                        <h2>Derapay</h2>
+                        <p>Derapay is an all-in-one platform for seamless bill payments and cryptocurrency exchange. Designed for convenience and security, Derapay allows users to pay bills, manage expenses, and trade crypto—all in one place. With an intuitive interface and fast transactions, Derapay simplifies financial management and brings the power of digital currency to everyday payments.</p>
                     </div>
                 </div>
                 <!-- Works Item End -->
@@ -382,7 +353,8 @@
                         <img src="<?php asset('images/icon-whyus-1.svg') ?>" alt="">
                     </div>
                     <h3>We’re Experts (But Fun Ones!)</h3>
-                    <p>We’re not just pros at what we do, we’re also down-to-earth, friendly folks who love a good challenge and a great laugh!</p>
+                    <p>We’re not just pros at what we do, we’re also down-to-earth, friendly folks who love a good
+                        challenge and a great laugh!</p>
                 </div>
                 <!-- Why Choose Item End -->
             </div>
@@ -394,7 +366,8 @@
                         <img src="<?php asset('images/icon-whyus-2.svg') ?>" alt="">
                     </div>
                     <h3>We Build Cool Stuff</h3>
-                    <p>From websites that wow to software that simplifies, we create the kind of tech that makes people say, "Whoa, that’s cool!"</p>
+                    <p>From websites that wow to software that simplifies, we create the kind of tech that makes people
+                        say, "Whoa, that’s cool!"</p>
                 </div>
                 <!-- Why Choose Item End -->
             </div>
@@ -406,7 +379,8 @@
                         <img src="<?php asset('images/icon-whyus-3.svg') ?>" alt="">
                     </div>
                     <h3>Your Success Is Our Priority</h3>
-                    <p>We’re in this for the long haul. Your goals are our goals, and we’re with you every step of the way, high-fives included!</p>
+                    <p>We’re in this for the long haul. Your goals are our goals, and we’re with you every step of the
+                        way, high-fives included!</p>
                 </div>
                 <!-- Why Choose Item End -->
             </div>
@@ -419,7 +393,7 @@
                             <div class="why-us-section-title">
                                 <!-- Section Title Start -->
                                 <div class="section-title">
-                                    <h2 class="text-anime-style-3">Do you want to explore our outstanding work?</h2>
+                                    <h2 class="text-anime-style-3">Curious to See Our Best Work?</h2>
                                 </div>
                                 <!-- Section Title End -->
 
@@ -436,9 +410,7 @@
                         <div class="col-lg-6">
                             <!-- Explore Item Content Start -->
                             <div class="explore-item-content wow fadeInUp" data-wow-delay="0.25s">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium , totam
-                                    rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae vitae
-                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                                <p>Discover the projects where strategy meets creativity! From innovative designs to impactful solutions, our portfolio showcases the dedication and talent that drive our results. Take a closer look and see how we bring ideas to life.</p>
                             </div>
                             <!-- Explore Item Content End -->
                         </div>
@@ -447,8 +419,8 @@
                             <!-- Explore Item Content Start -->
                             <div class="explore-item-tags wow fadeInUp" data-wow-delay="0.25s">
                                 <ul>
-                                    <li><a href="#" class="btn-default">dribbble</a></li>
                                     <li><a href="#" class="btn-default">linkedin</a></li>
+                                    <li><a href="#" class="btn-default">instagram</a></li>
                                     <li><a href="#" class="btn-default">contact Us</a></li>
                                 </ul>
                             </div>
@@ -471,7 +443,7 @@
                 <!-- Section Title Start -->
                 <div class="section-title">
                     <h3 class="wow fadeInUp">executive partners</h3>
-                    <h2 class="text-anime-style-3">100+ Partners & supporters</h2>
+                    <h2 class="text-anime-style-3">Our Clients</h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -481,7 +453,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="<?php asset('images/icon-partners-1.svg') ?>" alt="">
+                    <img src="<?php asset('images/millennium.png') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -489,7 +461,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="<?php asset('images/icon-partners-2.svg') ?>" alt="">
+                    <img src="<?php asset('images/derapay.png') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -497,7 +469,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.6s">
-                    <img src="<?php asset('images/icon-partners-3.svg') ?>" alt="">
+                    <img src="<?php asset('images/cusorcart.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -574,8 +546,7 @@
                                     </div>
 
                                     <div class="testimonial-content">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                            Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                        <p>Working with Team Oracus was a game-changer. Their team understood our unique needs and delivered a solution that not only met but exceeded our expectations. Their support and dedication are unmatched!</p>
                                     </div>
 
                                     <div class="testimonial-body">
@@ -584,7 +555,7 @@
                                         </figure>
                                         <div class="testimonial-author-title">
                                             <h2>John Doe</h2>
-                                            <p>Acme Solutions</p>
+                                            <p>Xepho LMS</p>
                                         </div>
                                     </div>
                                 </div>
@@ -599,8 +570,7 @@
                                     </div>
 
                                     <div class="testimonial-content">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                            Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                        <p>We were impressed by Oracus from day one! They seamlessly combined creativity with data-driven insights, helping us launch a successful bill payment platform that led to record engagement.</p>
                                     </div>
 
                                     <div class="testimonial-body">
@@ -608,8 +578,8 @@
                                             <img src="<?php asset('images/author-2.jpg') ?>" alt="">
                                         </figure>
                                         <div class="testimonial-author-title">
-                                            <h2>Arita Banson</h2>
-                                            <p>Delta Innovation</p>
+                                            <h2>Chidera Chiemeli</h2>
+                                            <p>CEO, Derapay</p>
                                         </div>
                                     </div>
                                 </div>
@@ -675,93 +645,3 @@
     </div>
 </div>
 <!-- Clients Testimonials Section End -->
-
-<!-- Latest News Section Start -->
-<div class="latest-news">
-    <div class="container">
-        <div class="row section-row align-items-center">
-            <div class="col-lg-6 col-md-8">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">Latest Blog & Articles</h3>
-                    <h2 class="text-anime-style-3">The latest insights you need to know</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="col-lg-6 col-md-4">
-                <!-- Section Btn Start -->
-                <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                    <a href="#" class="btn-default">view all articles</a>
-                </div>
-                <!-- Section Btn End -->
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <!-- Blog Item Start -->
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.25s">
-                    <!-- Blog Image Start -->
-                    <div class="post-featured-image">
-                        <figure class="image-anime">
-                            <a href="#"><img src="<?php asset('images/post-1.jpg') ?>" alt=""></a>
-                        </figure>
-                    </div>
-                    <!-- Blog Image End -->
-
-                    <!-- Blog Content Start -->
-                    <div class="post-item-body">
-                        <p><a href="#">10 April 2024</a></p>
-                        <h2><a href="#">Unlocking the Potential of AI in Business Success</a></h2>
-                    </div>
-                    <!-- Blog Content End -->
-                </div>
-                <!-- Blog Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Blog Item Start -->
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
-                    <!-- Blog Image Start -->
-                    <div class="post-featured-image">
-                        <figure class="image-anime">
-                            <a href="#"><img src="<?php asset('images/post-2.jpg') ?>" alt=""></a>
-                        </figure>
-                    </div>
-                    <!-- Blog Image End -->
-
-                    <!-- blog content Start -->
-                    <div class="post-item-body">
-                        <p><a href="#">10 April 2024</a></p>
-                        <h2><a href="#">Strategies for Building a Successful Distributed Team</a></h2>
-                    </div>
-                    <!-- Blog Content End -->
-                </div>
-                <!-- Blog Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Blog Item Start -->
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.75s">
-                    <!-- Blog Image Start -->
-                    <div class="post-featured-image">
-                        <figure class="image-anime">
-                            <a href="#"><img src="<?php asset('images/post-3.jpg') ?>" alt=""></a>
-                        </figure>
-                    </div>
-                    <!-- Blog Image End -->
-
-                    <!-- Blog Content Start -->
-                    <div class="post-item-body">
-                        <p><a href="#">10 April 2024</a></p>
-                        <h2><a href="#">Empowering Citizen Developers and Accelerating Innovation</a></h2>
-                    </div>
-                    <!-- Blog Content End -->
-                </div>
-                <!-- Blog Item End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Latest News Section End -->

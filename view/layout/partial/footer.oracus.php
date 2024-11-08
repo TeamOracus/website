@@ -26,11 +26,11 @@
                             <div class="footer-links">
                                 <h2>pages</h2>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/about">About Us</a></li>
+                                    <li><a href="/portfolio">Portfolio</a></li>
+                                    <!-- <li><a href="#">Blog</a></li> -->
+                                    <li><a href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>
                             <!-- Footer Links End -->
@@ -41,10 +41,10 @@
                             <div class="footer-links">
                                 <h2>Socials</h2>
                                 <ul>
-                                    <li><a href="#">instagram</a></li>
-                                    <li><a href="#">facebook</a></li>
-                                    <li><a href="#">twitter</a></li>
-                                    <li><a href="#">linkedin</a></li>
+                                    <li><a href="https://instagram.com/oracusng/">instagram</a></li>
+                                    <li><a href="https://facebook.com/oracusng/">facebook</a></li>
+                                    <li><a href="https://twitter.com/oracusng/">X (twitter)</a></li>
+                                    <li><a href="https://www.linkedin.com/company/oracus-ng">linkedin</a></li>
                                 </ul>
                             </div>
                             <!-- Footer Links End -->
@@ -57,9 +57,10 @@
                                 <ul>
                                     <li><a href="#">web development</a></li>
                                     <li><a href="#">digital marketing</a></li>
-                                    <li><a href="#">game development</a></li>
                                     <li><a href="#">mobile app development</a></li>
+                                    <li><a href="#">Social Media Management</a></li>
                                     <li><a href="#">networking services</a></li>
+                                    <li><a href="#">Branding/Graphics Design</a></li>
                                 </ul>
                             </div>
                             <!-- Footer Links End -->
