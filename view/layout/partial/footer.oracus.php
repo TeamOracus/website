@@ -14,7 +14,7 @@
                                 </figure>
                                 <p>We Transform Your Business with Innovative Solutions</p>
                                 <ul>
-                                    <li><a href="mailto:contact@oracus.ng">contact@oracus.ng</a></li>
+                                    <li><a href="mailto:contact@oracus.ng">contact&#64;oracus&#46;ng</a></li>
                                     <li><a href="tel:+2349091344893">(+234) 909 1344 893</a></li>
                                 </ul>
                             </div>
