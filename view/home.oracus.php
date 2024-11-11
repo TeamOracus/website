@@ -1,9 +1,3 @@
-<style>
-    /* .btn-default {
-        background-color:#FD7E14;
-        border-color: #FD7E14;
-    } */
-</style>
 <!-- Hero Section Start -->
 <div class="hero">
     <div class="container">
@@ -153,7 +147,7 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Web Development</h2>
-                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=web-development"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>Building fast, sleek, and responsive websites that turn visitors into customers—whether you
                             need a stunning portfolio or a full-blown e-commerce platform, we've got you covered!</p>
@@ -173,7 +167,8 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Digital Marketing</h2>
-                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=digital-marketing"><img src="<?php asset('images/arrow.svg') ?>"
+                                    alt=""></a>
                         </div>
                         <p>From SEO to social media campaigns, we’ll help your brand shine across the web. Let’s boost
                             your visibility and get those clicks rolling in!</p>
@@ -193,7 +188,7 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Mobile App Development</h2>
-                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=mobile-app"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>Need an app? We create user-friendly, intuitive mobile experiences that your customers will
                             love—whether it’s iOS, Android, or cross-platform.</p>
@@ -213,7 +208,7 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Social Media Management</h2>
-                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=social-media"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>We’ll manage your social media like pros—creating engaging posts, running ads, and keeping
                             your audience hooked. It’s time to go viral!</p>
@@ -233,7 +228,7 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Networking Services</h2>
-                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=networking"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>Setting up a robust, secure, and reliable network for your business? Whether it’s wired or
                             wireless, we ensure you’re always connected—seamlessly!</p>
@@ -253,7 +248,7 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Branding/Graphics Design</h2>
-                            <a href="#"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=branding"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
                         </div>
                         <p>Your brand deserves to stand out. From logo design to full brand identity, we create visuals
                             that leave a lasting impression and make your brand pop!</p>
@@ -305,7 +300,10 @@
                     </div>
                     <div class="works-content">
                         <h2>Gridape HQ</h2>
-                        <p>Gridape is an AI-powered email marketing platform that helps businesses create personalized, high-impact campaigns. With smart segmentation, predictive analytics, and easy-to-use design tools, Gridape enables targeted messaging that drives engagement and boosts ROI—making email marketing smarter and more effective.</p>
+                        <p>Gridape is an AI-powered email marketing platform that helps businesses create personalized,
+                            high-impact campaigns. With smart segmentation, predictive analytics, and easy-to-use design
+                            tools, Gridape enables targeted messaging that drives engagement and boosts ROI—making email
+                            marketing smarter and more effective.</p>
                     </div>
                 </div>
                 <!-- Works Item End -->
@@ -321,7 +319,11 @@
                     </div>
                     <div class="works-content">
                         <h2>Derapay</h2>
-                        <p>Derapay is an all-in-one platform for seamless bill payments and cryptocurrency exchange. Designed for convenience and security, Derapay allows users to pay bills, manage expenses, and trade crypto—all in one place. With an intuitive interface and fast transactions, Derapay simplifies financial management and brings the power of digital currency to everyday payments.</p>
+                        <p>Derapay is an all-in-one platform for seamless bill payments and cryptocurrency exchange.
+                            Designed for convenience and security, Derapay allows users to pay bills, manage expenses,
+                            and trade crypto—all in one place. With an intuitive interface and fast transactions,
+                            Derapay simplifies financial management and brings the power of digital currency to everyday
+                            payments.</p>
                     </div>
                 </div>
                 <!-- Works Item End -->
@@ -331,8 +333,8 @@
 </div>
 <!-- Our Work Section End -->
 
-@php View::render('includes.why-us'); @endphp
+@php View::render('sections.why-us'); @endphp
 
-@php View::render('includes.partners'); @endphp
+@php View::render('sections.partners'); @endphp
 
-@php View::render('includes.testimonials'); @endphp
+@php View::render('sections.testimonials'); @endphp

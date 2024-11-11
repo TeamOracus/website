@@ -83,8 +83,8 @@
                             <!-- Footer Policy Links Start -->
                             <div class="footer-policy-links">
                                 <ul>
-                                    <li><a href="#">privacy policy</a></li>
-                                    <li><a href="#">terms of service</a></li>
+                                    <li><a href="/privacy-policy">privacy policy</a></li>
+                                    <li><a href="/terms-of-service">terms of service</a></li>
                                     <li class="highlighted"><a href="#top">go to top</a></li>
                                 </ul>
                             </div>

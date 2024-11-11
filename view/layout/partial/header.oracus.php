@@ -15,7 +15,7 @@
                         <ul class="navbar-nav mr-auto" id="menu">
                             <li class="nav-item"><a class="nav-link" href="/">home</a></li>
                             <li class="nav-item"><a class="nav-link" href="/about">about us</a></li>
-                            <!-- <li class="nav-item"><a class="nav-link" href="services.html">services</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="/services">services</a></li>
                             <li class="nav-item"><a class="nav-link" href="/portfolio">portfolio</a></li>
                             <!-- <li class="nav-item"><a class="nav-link" href="blog.html">blog</a></li> -->
                             <!-- <li class="nav-item submenu"><a class="nav-link" href="#">pages</a>
