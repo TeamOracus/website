@@ -55,7 +55,7 @@
 
                                     <div class="testimonial-body">
                                         <figure class="image-anime">
-                                            <img src="<?php asset('images/placeholder-image.jpg') ?>" alt="">
+                                            <img src="<?php asset('images/chidera-chiemeli.jpg') ?>" alt="">
                                         </figure>
                                         <div class="testimonial-author-title">
                                             <h2>Chidera Chiemeli</h2>

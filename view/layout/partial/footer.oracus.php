@@ -55,12 +55,12 @@
                             <div class="footer-links">
                                 <h2>services</h2>
                                 <ul>
-                                    <li><a href="#">web development</a></li>
-                                    <li><a href="#">digital marketing</a></li>
-                                    <li><a href="#">mobile app development</a></li>
-                                    <li><a href="#">Social Media Management</a></li>
-                                    <li><a href="#">networking services</a></li>
-                                    <li><a href="#">Branding/Graphics Design</a></li>
+                                    <li><a href="/service?service=web-development">web development</a></li>
+                                    <li><a href="/service?service=digital-marketing">digital marketing</a></li>
+                                    <li><a href="/service?service=mobile-app">mobile app development</a></li>
+                                    <li><a href="/service?service=social-media">Social Media Management</a></li>
+                                    <li><a href="/service?service=networking">networking services</a></li>
+                                    <li><a href="/service?service=branding">Branding/Graphics Design</a></li>
                                 </ul>
                             </div>
                             <!-- Footer Links End -->

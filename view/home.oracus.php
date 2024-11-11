@@ -134,7 +134,7 @@
             <div class="col-lg-5 col-md-5">
                 <!-- Section Btn Start -->
                 <div class="section-btn">
-                    <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.25s">view all services</a>
+                    <a href="/services" class="btn-default wow fadeInUp" data-wow-delay="0.25s">view all services</a>
                 </div>
                 <!-- Section Btn End -->
             </div>
@@ -147,7 +147,8 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Web Development</h2>
-                            <a href="/services?service=web-development"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=web-development"><img src="<?php asset('images/arrow.svg') ?>"
+                                    alt=""></a>
                         </div>
                         <p>Building fast, sleek, and responsive websites that turn visitors into customers—whether you
                             need a stunning portfolio or a full-blown e-commerce platform, we've got you covered!</p>
@@ -188,7 +189,8 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Mobile App Development</h2>
-                            <a href="/services?service=mobile-app"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=mobile-app"><img src="<?php asset('images/arrow.svg') ?>"
+                                    alt=""></a>
                         </div>
                         <p>Need an app? We create user-friendly, intuitive mobile experiences that your customers will
                             love—whether it’s iOS, Android, or cross-platform.</p>
@@ -208,7 +210,8 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Social Media Management</h2>
-                            <a href="/services?service=social-media"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=social-media"><img src="<?php asset('images/arrow.svg') ?>"
+                                    alt=""></a>
                         </div>
                         <p>We’ll manage your social media like pros—creating engaging posts, running ads, and keeping
                             your audience hooked. It’s time to go viral!</p>
@@ -228,7 +231,8 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Networking Services</h2>
-                            <a href="/services?service=networking"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=networking"><img src="<?php asset('images/arrow.svg') ?>"
+                                    alt=""></a>
                         </div>
                         <p>Setting up a robust, secure, and reliable network for your business? Whether it’s wired or
                             wireless, we ensure you’re always connected—seamlessly!</p>
@@ -248,7 +252,8 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Branding/Graphics Design</h2>
-                            <a href="/services?service=branding"><img src="<?php asset('images/arrow.svg') ?>" alt=""></a>
+                            <a href="/services?service=branding"><img src="<?php asset('images/arrow.svg') ?>"
+                                    alt=""></a>
                         </div>
                         <p>Your brand deserves to stand out. From logo design to full brand identity, we create visuals
                             that leave a lasting impression and make your brand pop!</p>
@@ -294,9 +299,11 @@
                 <!-- Works Item Start -->
                 <div class="works-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="works-image">
-                        <figure class="image-anime">
-                            <img src="<?php asset('images/gridape.jpg') ?>" alt="">
-                        </figure>
+                        <a href="/portfolio?project=gridape">
+                            <figure class="image-anime">
+                                <img src="<?php asset('images/gridape.jpg') ?>" alt="">
+                            </figure>
+                        </a>
                     </div>
                     <div class="works-content">
                         <h2>Gridape HQ</h2>
@@ -313,9 +320,11 @@
                 <!-- Works Item Start -->
                 <div class="works-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="works-image">
-                        <figure class="image-anime">
-                            <img src="<?php asset('images/derapay.jpg') ?>" alt="">
-                        </figure>
+                        <a href="/portfolio?project=derapay">
+                            <figure class="image-anime">
+                                <img src="<?php asset('images/derapay.jpg') ?>" alt="">
+                            </figure>
+                        </a>
                     </div>
                     <div class="works-content">
                         <h2>Derapay</h2>

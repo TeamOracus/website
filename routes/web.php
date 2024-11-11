@@ -8,8 +8,7 @@ $routes = [
     '/contact' => 'contact',
     // '/faqs' => 'faqs',
     '/services' => 'services',
-    // '/projects' => 'projects',
-    // '/project-details' => 'project-details',
+    '/portfolio' => 'portfolio',
     '/privacy-policy' => 'privacy-policy',
     '/terms-of-service' => 'terms-of-service',
 ];
