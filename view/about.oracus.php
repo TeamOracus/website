@@ -243,10 +243,10 @@
 
                         <div class="our-team-social-icon">
                             <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/nina__nma/" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/blessing-mba-24a8a2184/" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="https://x.com/blessing_mba_" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100070447322334&mibextid=JRoKGi" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
                             </ul>
                         </div>
                     </div>

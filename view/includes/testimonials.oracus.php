@@ -83,7 +83,7 @@
                                         </figure>
                                         <div class="testimonial-author-title">
                                             <h2>Dr. Munachino Obinna Eze</h2>
-                                            <p>Chairman and Group CEO, Millennium Group of Companies</p>
+                                            <p>Chairman and Group CEO, <a href="https://millenniumgroup.ng">Millennium Group of Companies</a></p>
                                         </div>
                                     </div>
                                 </div>

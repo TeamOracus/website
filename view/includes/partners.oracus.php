@@ -32,7 +32,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.6s">
-                    <img src="<?php asset('images/cusorcart.svg') ?>" alt="">
+                    <img src="<?php asset('images/gridape.png') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
@@ -41,38 +41,6 @@
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.8s">
                     <img src="<?php asset('images/icon-partners-4.svg') ?>" alt="">
-                </div>
-                <!-- Partners Logo End -->
-            </div>
-
-            <div class="col-lg-3 col-6">
-                <!-- Partners Logo Start -->
-                <div class="partners-logo wow fadeInUp" data-wow-delay="1s">
-                    <img src="<?php asset('images/icon-partners-3.svg') ?>" alt="">
-                </div>
-                <!-- Partners Logo End -->
-            </div>
-
-            <div class="col-lg-3 col-6">
-                <!-- Partners Logo Start -->
-                <div class="partners-logo wow fadeInUp" data-wow-delay="1.2s">
-                    <img src="<?php asset('images/icon-partners-4.svg') ?>" alt="">
-                </div>
-                <!-- Partners Logo End -->
-            </div>
-
-            <div class="col-lg-3 col-6">
-                <!-- Partners Logo Start -->
-                <div class="partners-logo wow fadeInUp" data-wow-delay="1.4s">
-                    <img src="<?php asset('images/icon-partners-1.svg') ?>" alt="">
-                </div>
-                <!-- Partners Logo End -->
-            </div>
-
-            <div class="col-lg-3 col-6">
-                <!-- Partners Logo Start -->
-                <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                    <img src="<?php asset('images/icon-partners-2.svg') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>
