@@ -148,9 +148,9 @@
 					<div class="project-gallery-items wow fadeInUp" data-wow-delay="0.25s">
 						<!-- Project Gallery Item Start -->
 						<div class="project-gallery-item">
-							<a href="<?php asset('images/post-1.jpg') ?>">
+							<a href="<?php asset('images/gridape-dashboard.png') ?>">
 								<figure class="image-anime">
-									<img src="<?php asset('images/post-1.jpg') ?>" alt="">
+									<img src="<?php asset('images/gridape-dashboard.png') ?>" alt="">
 								</figure>
 							</a>
 						</div>
@@ -158,9 +158,9 @@
 
 						<!-- Project Gallery Item Start -->
 						<div class="project-gallery-item wow fadeInUp" data-wow-delay="0.5s">
-							<a href="<?php asset('images/post-2.jpg') ?>">
+							<a href="<?php asset('images/gridape-editor.png') ?>">
 								<figure class="image-anime">
-									<img src="<?php asset('images/post-2.jpg') ?>" alt="">
+									<img src="<?php asset('images/gridape-editor.png') ?>" alt="">
 								</figure>
 							</a>
 						</div>
@@ -168,9 +168,9 @@
 
 						<!-- Project Gallery Item Start -->
 						<div class="project-gallery-item wow fadeInUp" data-wow-delay="0.75s">
-							<a href="<?php asset('images/post-3.jpg') ?>">
+							<a href="<?php asset('images/gridape-domain.png') ?>">
 								<figure class="image-anime">
-									<img src="<?php asset('images/post-3.jpg') ?>" alt="">
+									<img src="<?php asset('images/gridape-domain.png') ?>" alt="">
 								</figure>
 							</a>
 						</div>
