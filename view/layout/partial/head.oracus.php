@@ -3,9 +3,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
+	<meta name="description" content="we combine strategy, creativity, innovation, and design to solve the most complex business challenges.">
+	<meta name="keywords" content="team oracus, digital marketing, branding, software development, graphics design, mobile app, digital agency, seo">
+	<meta name="author" content="Team Oracus">
+	<meta name="robots" content="">
+	<meta property="og:image" content="<?php asset('images/social-image.jpg') ?>">
+    <meta property="og:url" content="<?php echo $_ENV['APP_URL'] ?>">
+    <meta property="og:type" content="image/jpeg">
 	<!-- Page Title -->
 	<title>Team Oracus - We are more than just a digital agency</title>
 	<!-- Favicon Icon -->
