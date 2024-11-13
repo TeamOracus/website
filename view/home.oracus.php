@@ -22,7 +22,7 @@
 
                     <!-- Hero Footer Start -->
                     <div class="hero-footer">
-                        <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.75s">free consultation</a>
+                        <a href="/contact" class="btn-default wow fadeInUp" data-wow-delay="0.75s">free consultation</a>
                     </div>
                     <!-- Hero Footer End -->
                 </div>
@@ -108,7 +108,7 @@
                     </ul>
 
 
-                    <a href="#" class="btn-default wow fadeInUp" data-wow-delay="1.25s">free consultation</a>
+                    <a href="/contact" class="btn-default wow fadeInUp" data-wow-delay="1.25s">free consultation</a>
                 </div>
                 <!-- About Us Content End -->
             </div>

@@ -31,11 +31,11 @@
 
                                     <div class="testimonial-body">
                                         <figure class="image-anime">
-                                            <img src="<?php asset('images/placeholder-image.jpg') ?>" alt="">
+                                            <img src="<?php asset('images/secondus.jpg') ?>" alt="">
                                         </figure>
                                         <div class="testimonial-author-title">
-                                            <h2>John Doe</h2>
-                                            <p>ABC Company</p>
+                                            <h2>Favour Secondus</h2>
+                                            <p>Investment Consultant</p>
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@
                                         </figure>
                                         <div class="testimonial-author-title">
                                             <h2>Dr. Munachino Obinna Eze</h2>
-                                            <p>Chairman and Group CEO, <a href="https://millenniumgroup.ng">Millennium Group of Companies</a></p>
+                                            <p>Chairman, <a href="https://millenniumgroup.ng">Millennium Group of Companies</a></p>
                                         </div>
                                     </div>
                                 </div>
