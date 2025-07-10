@@ -42,7 +42,7 @@
             <div class="col-lg-12">
                 <!-- Project Item Box start -->
                 <div class="row project-item-boxes">
-                    <div class="col-md-6 project-item-box app">
+                    <div class="col-md-6 project-item-box app website digital">
                         <!-- Works Item Start -->
                         <div class="works-item">
                             <div class="works-image">
