@@ -40,7 +40,7 @@
             <div class="col-lg-3 col-6">
                 <!-- Partners Logo Start -->
                 <div class="partners-logo wow fadeInUp" data-wow-delay="0.8s">
-                    <img src="<?php asset('images/icon-partners-4.svg') ?>" alt="">
+                    <img src="<?php asset('images/theigbobible.png') ?>" alt="">
                 </div>
                 <!-- Partners Logo End -->
             </div>

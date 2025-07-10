@@ -322,17 +322,16 @@
                     <div class="works-image">
                         <a href="/portfolio?project=derapay">
                             <figure class="image-anime">
-                                <img src="<?php asset('images/derapay.jpg') ?>" alt="">
+                                <img src="<?php asset('images/theigbobiblebanner.jpg') ?>" alt="">
                             </figure>
                         </a>
                     </div>
                     <div class="works-content">
-                        <h2>Derapay</h2>
-                        <p>Derapay is an all-in-one platform for seamless bill payments and cryptocurrency exchange.
-                            Designed for convenience and security, Derapay allows users to pay bills, manage expenses,
-                            and trade crypto—all in one place. With an intuitive interface and fast transactions,
-                            Derapay simplifies financial management and brings the power of digital currency to everyday
-                            payments.</p>
+                        <h2>The Igbo Bible</h2>
+                        <p>The Igbo Bible is not a religious app - it's a gateway into the ancient wisdom and rich
+                            heritage of the Igbo people. Explore the mysteries of Igbo cosmology, traditional calendars,
+                            the symbolic Nsibidi writing system, ancestral proverbs, and timeless stories that shaped a
+                            civilization.</p>
                     </div>
                 </div>
                 <!-- Works Item End -->
