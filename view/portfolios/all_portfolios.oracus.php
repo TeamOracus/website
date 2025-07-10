@@ -72,7 +72,7 @@
                             <div class="works-image">
                                 <a href="/portfolio?project=theigbobible">
                                     <figure class="image-anime">
-                                        <img src="<?php asset('images/theigbobible.jpg') ?>" alt="">
+                                        <img src="<?php asset('images/theigbobiblebanner.jpg') ?>" alt="">
                                     </figure>
                                 </a>
                             </div>
