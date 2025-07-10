@@ -320,7 +320,7 @@
                 <!-- Works Item Start -->
                 <div class="works-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="works-image">
-                        <a href="/portfolio?project=derapay">
+                        <a href="/portfolio?project=theigbobible">
                             <figure class="image-anime">
                                 <img src="<?php asset('images/theigbobiblebanner.jpg') ?>" alt="">
                             </figure>

@@ -70,6 +70,36 @@
                         <!-- Works Item Start -->
                         <div class="works-item">
                             <div class="works-image">
+                                <a href="/portfolio?project=theigbobible">
+                                    <figure class="image-anime">
+                                        <img src="<?php asset('images/theigbobible.jpg') ?>" alt="">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="works-content">
+                                <h2>The Igbo Bible</h2>
+                                <p>The Igbo Bible is not a religious app - it's a gateway into the ancient wisdom and
+                                    rich
+                                    heritage of the Igbo people. Explore the mysteries of Igbo cosmology, traditional
+                                    calendars,
+                                    the symbolic Nsibidi writing system, ancestral proverbs, and timeless stories that
+                                    shaped a
+                                    civilization.</p>
+                            </div>
+                        </div>
+                        <!-- Works Item End -->
+                    </div>
+                </div>
+                <!-- Project Item Box End -->
+            </div>
+
+            <div class="col-lg-12">
+                <!-- Project Item Box start -->
+                <div class="row project-item-boxes">
+                    <div class="col-md-6 project-item-box app">
+                        <!-- Works Item Start -->
+                        <div class="works-item">
+                            <div class="works-image">
                                 <a href="/portfolio?project=derapay">
                                     <figure class="image-anime">
                                         <img src="<?php asset('images/derapay.jpg') ?>" alt="">
