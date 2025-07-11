@@ -80,7 +80,13 @@
                 claims, damages, losses, liabilities, or expenses (including legal fees) arising out of or relating to
                 your use of the delivered services or any violation of this agreement.</p>
 
-            <h2>9. Changes to Terms</h2>
+
+            <h2>9. No Financial or Legal Advice</h2>
+            <p>Team Oracus does not provide legal, financial, or regulatory advice. Any content, features, or tools
+                provided as part of your website are for development and design purposes only. It is solely your
+                responsibility to ensure your business activities comply with applicable laws and regulations.</p>
+
+            <h2>10. Changes to Terms</h2>
             <p>Team Oracus reserves the right to modify these Terms of Service at any time. We will notify users of
                 significant changes, and your continued use of the services signifies acceptance of the updated terms.
             </p>
