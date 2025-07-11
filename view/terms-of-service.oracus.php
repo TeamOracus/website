@@ -25,7 +25,7 @@
     <div class="container">
         <div class="row align-items-center">
             <h1>Terms of Service</h1>
-            <p><em>Last Updated: 11/11/2024</em></p>
+            <p><em>Last Updated: 11/06/2025</em></p>
 
             <h2>1. Acceptance of Terms</h2>
             <p>By accessing and using Team Oracus’ website and services, you agree to comply with these Terms of
@@ -67,7 +67,20 @@
             <p>We reserve the right to terminate or suspend access to our services if you breach any terms or for any
                 other reason deemed necessary to maintain service integrity.</p>
 
-            <h2>8. Changes to Terms</h2>
+            <h2>8. Prohibited Uses and Client Responsibility</h2>
+            <p>You agree not to use, or permit the use of, any website, application, or other service provided by Team
+                Oracus for any unlawful, fraudulent, deceptive, or harmful purpose. This includes but is not limited to
+                the operation of unlicensed financial, investment, or trading platforms in violation of applicable laws
+                and regulations.</p>
+            <p>You acknowledge and accept full responsibility for the content, functionality, and legal compliance of
+                any website or platform delivered to you. Team Oracus acts solely as a development and design provider
+                and does not assume any responsibility for your business operations, marketing practices, legal
+                obligations, or regulatory compliance after project delivery.</p>
+            <p>You agree to indemnify and hold harmless Team Oracus and its affiliates, officers, and employees from any
+                claims, damages, losses, liabilities, or expenses (including legal fees) arising out of or relating to
+                your use of the delivered services or any violation of this agreement.</p>
+
+            <h2>9. Changes to Terms</h2>
             <p>Team Oracus reserves the right to modify these Terms of Service at any time. We will notify users of
                 significant changes, and your continued use of the services signifies acceptance of the updated terms.
             </p>
