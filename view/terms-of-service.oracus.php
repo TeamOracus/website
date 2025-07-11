@@ -63,11 +63,7 @@
             <p>Team Oracus will not be liable for any damages arising from the use or inability to use our services,
                 including but not limited to data loss, downtime, or service interruptions.</p>
 
-            <h2>7. Termination</h2>
-            <p>We reserve the right to terminate or suspend access to our services if you breach any terms or for any
-                other reason deemed necessary to maintain service integrity.</p>
-
-            <h2>8. Prohibited Uses and Client Responsibility</h2>
+            <h2>7. Prohibited Uses and Client Responsibility</h2>
             <p>You agree not to use, or permit the use of, any website, application, or other service provided by Team
                 Oracus for any unlawful, fraudulent, deceptive, or harmful purpose. This includes but is not limited to
                 the operation of unlicensed financial, investment, or trading platforms in violation of applicable laws
@@ -81,10 +77,14 @@
                 your use of the delivered services or any violation of this agreement.</p>
 
 
-            <h2>9. No Financial or Legal Advice</h2>
+            <h2>8. No Financial or Legal Advice</h2>
             <p>Team Oracus does not provide legal, financial, or regulatory advice. Any content, features, or tools
                 provided as part of your website are for development and design purposes only. It is solely your
                 responsibility to ensure your business activities comply with applicable laws and regulations.</p>
+
+            <h2>9. Termination</h2>
+            <p>We reserve the right to terminate or suspend access to our services if you breach any terms or for any
+                other reason deemed necessary to maintain service integrity.</p>
 
             <h2>10. Changes to Terms</h2>
             <p>Team Oracus reserves the right to modify these Terms of Service at any time. We will notify users of
