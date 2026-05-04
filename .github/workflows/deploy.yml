@@ -5,21 +5,45 @@ on:
     branches: "main"
 
 jobs:
-  php-tests:
+  deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
+      - uses: actions/checkout@v4
+
       - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
         with:
           php-version: "8.2"
-      - uses: actions/checkout@v3
-    #   - name: Install Dependencies
-    #     run: |
-    #       composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
-      - name: Deploy to Server
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+
+      #   - name: Install Dependencies
+      #     run: |
+      #       composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+      - uses: webfactory/ssh-agent@v0.9.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add server to known_hosts
+        run: |
+          PORT="${SSH_PORT:-22}"
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          ssh-keyscan -p "$PORT" -H "$SSH_HOST" >> ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+
+      - name: Deploy over SSH (rsync)
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_REMOTE_PATH: ${{ secrets.SSH_REMOTE_PATH }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+        run: |
+          PORT="${SSH_PORT:-22}"
+          rsync -avz --delete \
+            -e "ssh -p $PORT -o IdentitiesOnly=yes" \
+            --exclude '.git/' \
+            --exclude '.github/' \
+            ./ "${SSH_USER}@${SSH_HOST}:${SSH_REMOTE_PATH}"
