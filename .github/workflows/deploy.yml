@@ -19,9 +19,27 @@ jobs:
       #     run: |
       #       composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
 
-      - uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      # webfactory/ssh-agent cannot unlock passphrase-protected keys in CI.
+      # If your key is encrypted, add repository secret SSH_PASSPHRASE (same passphrase as locally).
+      # Or use a deploy-only key with no passphrase (recommended for CI).
+      - name: Start SSH agent and add deploy key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          eval "$(ssh-agent -s)"
+          echo "SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> "$GITHUB_ENV"
+          echo "SSH_AGENT_PID=$SSH_AGENT_PID" >> "$GITHUB_ENV"
+          printf '%s\n' "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/github_deploy_key
+          chmod 600 ~/.ssh/github_deploy_key
+          if [ -n "${SSH_PASSPHRASE:-}" ]; then
+            ssh-keygen -p -P "$SSH_PASSPHRASE" -N "" -f ~/.ssh/github_deploy_key
+          fi
+          ssh-add ~/.ssh/github_deploy_key
+          rm -f ~/.ssh/github_deploy_key
 
       - name: Add server to known_hosts
         run: |
