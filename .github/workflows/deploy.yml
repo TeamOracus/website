@@ -1,6 +1,5 @@
-# Needs secrets: SSH_HOST, SSH_USER, SSH_REMOTE_PATH, SSH_PRIVATE_KEY. Optional: SSH_PORT (defaults to 22), SSH_PASSPHRASE.
-# "Connection refused" on port 22 → set SSH_PORT to the port from cPanel → SSH Access (often e.g. 21098, not 22).
-# If port is correct but still refused, the host may block SSH from cloud IPs; then use a self-hosted runner or non-SSH deploy.
+# Secrets: SSH_HOST, SSH_USER, SSH_REMOTE_PATH, SSH_PRIVATE_KEY, SSH_PORT (required — copy exact port from cPanel → SSH Access; often not 22).
+# Optional: SSH_PASSPHRASE. If SSH_PORT matches cPanel but you still get "Connection refused", the host may block cloud/datacenter IPs (GitHub runners).
 
 name: Continuous Integration and Deployment
 
@@ -53,13 +52,14 @@ jobs:
           SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
           set -euo pipefail
-          PORT="${SSH_PORT:-22}"
           : "${SSH_HOST:?Repository secret SSH_HOST is missing or empty}"
           : "${SSH_USER:?Repository secret SSH_USER is missing or empty}"
           : "${SSH_REMOTE_PATH:?Repository secret SSH_REMOTE_PATH is missing or empty}"
+          : "${SSH_PORT:?Add repository secret SSH_PORT with the SSH port from cPanel → SSH Access (e.g. 21098). If cPanel shows 22, set SSH_PORT to 22.}"
+          PORT="${SSH_PORT}"
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
-          echo "Using SSH port ${PORT} (repository secret SSH_PORT; defaults to 22 if unset)."
+          echo "Using SSH port ${PORT} (from secret SSH_PORT)."
           # No ssh-keyscan: many hosts block it; first real ssh uses StrictHostKeyChecking=accept-new.
           rsync -avz --delete \
             -e "ssh -p $PORT -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new" \
